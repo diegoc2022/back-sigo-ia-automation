@@ -1,0 +1,21 @@
+export interface Usuario2{
+    id:number;
+    username:string;   
+    terminal:number;  
+    access:number;
+    nombre:string;
+    password:string;  
+    updated:string;
+    aplicativo:string;
+    niveles:string;
+    tipo_cuenta:string;  
+    codigo_empleado:number;
+    last_dbuser:string;
+    last_app:string;   
+    last_date:Date;
+    last_time:string;
+    last_user:string;
+    last_ip_address:string;
+    cambio_clave:string;
+    control:string;
+}
