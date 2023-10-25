@@ -3,8 +3,7 @@ import { InjectRepository } from '@nestjs/typeorm';
 import { Usuario } from './entity/user';
 import { Repository } from 'typeorm';
 import { LoginDto } from './dto/login-dto';
-import { UnsubscriptionError } from 'rxjs';
-import { error } from 'console';
+
 
 
 @Injectable()
