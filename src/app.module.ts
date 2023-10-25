@@ -5,6 +5,8 @@ import { LoginModule } from './login/login.module';
 import { TypeOrmModule } from '@nestjs/typeorm';
 import { DataSource } from 'typeorm';
 import { Usuario } from './login/entity/user';
+import * as dotenv from 'dotenv';
+dotenv.config();
 
 
 @Module({
